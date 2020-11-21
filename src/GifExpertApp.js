@@ -3,8 +3,8 @@ import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 // import PropTypes from 'prop-types';
 
-const GifExpertApp = props => {
-    const [categorias, setCategorias] = useState(['Attack on titan']);
+const GifExpertApp = ({ defaultCategorias=[] }) => {
+    const [categorias, setCategorias] = useState( defaultCategorias );
 
     return (
         <>

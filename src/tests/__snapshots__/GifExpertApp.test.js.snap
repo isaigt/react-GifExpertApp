@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente <GifExpertApp /> Debe hacer match con el snapshot 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__lightSpeedInLeft"
+  >
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategorias={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Pruebas del componente <GifExpertApp /> debe de mostrar el numero correspondiente de GifGrids 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__lightSpeedInLeft"
+  >
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategorias={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      categoria="Attack on titan"
+      key="Attack on titan"
+    />
+    <GifGrid
+      categoria="One Punch"
+      key="One Punch"
+    />
+  </ol>
+</Fragment>
+`;
